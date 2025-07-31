@@ -1,16 +1,11 @@
 # Open hardware monitor
-[![Release](https://img.shields.io/github/v/release/NewOpenHardwareMonitor/openhardwaremonitor)](https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/releases/latest)
-![Downloads](https://img.shields.io/github/downloads/NewOpenHardwareMonitor/openhardwaremonitor/total?color=ff4f42)
-![Last commit](https://img.shields.io/github/last-commit/NewOpenHardwareMonitor/openhardwaremonitor?color=00AD00)
-
-[![Nuget](https://img.shields.io/nuget/v/OpenHardwareMonitorLib)](https://www.nuget.org/packages/OpenHardwareMonitorLib/)
-[![Nuget](https://img.shields.io/nuget/dt/OpenHardwareMonitorLib?label=nuget-downloads)](https://www.nuget.org/packages/OpenHardwareMonitorLib/)
 
 Open hardware monitor - is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer.
 
 This application is based on the "original" [openhardwaremonitor](https://github.com/openhardwaremonitor/openhardwaremonitor) project.
 
-# This is a legacy and outdated version, for the latest features check the [current repo](https://github.com/newopenhardwaremonitor/openhardwaremonitor)
+# Looking for new features? 
+## This is a legacy version — check out the updated [OpenHardwareMonitor](https://github.com/hardwaremonitor/openhardwaremonitor) with more features and better support
 
 
 ## Features
@@ -33,7 +28,7 @@ You can see information about devices such as:
  - `Hide/Unhide` sensors to remove some data from UI and web server.
  - Multiple `Tray icons` and `Gadget` for selected sensor values.
  - `Light`/`Dark` themes with auto switching mode.
- - Custom `color-themes` from external files - You can find examples [here](https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/tree/dev/OpenHardwareMonitor/Resources/themes)
+ - Custom `color-themes` from external files - You can find examples [here](https://github.com/HardwareMonitor/openhardwaremonitor/tree/master/OpenHardwareMonitor/Resources/themes)
  - `Portable` mode for storing temporary driver file and settings configuration next to the executable file.
  - `Updated versions check` - manually from main menu.
 
@@ -41,17 +36,17 @@ You can see information about devices such as:
 
 ### UI example with `Light`/`Dark` themes
 
-[<img src="https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/raw/master/themes.png" alt="Themes" width="300"/>](https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/raw/master/themes.png)
+[<img src="https://github.com/HardwareMonitor/openhardwaremonitor/raw/master/themes.png" alt="Themes" width="300"/>](https://github.com/HardwareMonitor/openhardwaremonitor/raw/master/themes.png)
 
 ## Download
 
-The published version can be obtained from [releases](https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/releases).
+The published version can be obtained from [releases](https://github.com/HardwareMonitor/openhardwaremonitor/releases).
 
 
 ## Developer information
 **Integrate the library in own application**
 1. Add the [OpenHardwareMonitorLib](https://www.nuget.org/packages/OpenHardwareMonitorLib/) NuGet package to your application.
-2. Use the sample code below or the test console application from [here](https://github.com/NewOpenHardwareMonitor/openhardwaremonitor/tree/dev/LibTest)
+2. Use the sample code below or the test console application from [here](https://github.com/HardwareMonitor/openhardwaremonitor/tree/master/LibTest)
 
 
 **Sample code**
